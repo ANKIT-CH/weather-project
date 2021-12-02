@@ -5,7 +5,7 @@ const app = express();
 
 app.get("/", function (req, res) {
   const url =
-    "https://api.openweathermap.org/data/2.5/weather?q=delhi&appid=37922baade64217f856db97f50f973ad&units=metric";
+    "https://api.openweathermap.org/data/2.5/weather?q=delhi&appid=xxxxxxxxxxxxxxxxxx&units=metric";
   https.get(url, function (weatherResp) {
     console.log(weatherResp.statusCode);
 
